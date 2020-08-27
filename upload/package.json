@@ -1,0 +1,15 @@
+{
+  "name": "problem3",
+  "version": "1.0.0",
+  "description": "Create simple Node.js web API with an HTTP GET endpoint that returns the time from the server.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Pamela Garces",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
