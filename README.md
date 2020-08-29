@@ -11,5 +11,9 @@ Steps followed:
 - Created S3 bucket and S3 bucket object.
 - Created Elastic beanstalk application, environment and version.
 - Run `terraform apply` to create resources.
+
 - Deploy with the following command:
 aws --region $REGION elasticbeanstalk update-environment --environment-name $(terraform output env_name) --version-label $(terraform output app_version)
+
+or with:
+terraform output command
