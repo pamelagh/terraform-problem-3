@@ -13,7 +13,4 @@ Steps followed:
 - Run `terraform apply` to create resources.
 
 - Deploy with the following command:
-aws --region $REGION elasticbeanstalk update-environment --environment-name $(terraform output env_name) --version-label $(terraform output app_version)
-
-or with:
-terraform output command
+aws --region $(terraform output region) elasticbeanstalk update-environment --environment-name $(terraform output env_name) --version-label $(terraform output app_version)

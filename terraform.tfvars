@@ -6,6 +6,8 @@ env_name = "ENV-problem3-nodejs"
 
 platform_version = "64bit Amazon Linux 2 v5.2.0 running Node.js 12"
 
+profile = "pamelag"
+
 region = "us-east-1"
 
 service_name = "SER-problem3-nodejs"
